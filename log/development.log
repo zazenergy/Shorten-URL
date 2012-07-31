@@ -1,0 +1,657 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-07-30 21:52:59 -0700
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (5ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (2.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUrls (20120731045348)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "urls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url" varchar(255) NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120731045348')
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("urls")
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-07-30 22:11:32 -0700
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (30ms)
+
+
+Started GET "/urls/new" for 127.0.0.1 at 2012-07-30 22:11:54 -0700
+Processing by UrlsController#new as HTML
+  Rendered urls/new.html.erb within layouts/application (25.6ms)
+Compiled urls.css  (45ms)  (pid 26279)
+Compiled application.css  (54ms)  (pid 26279)
+Compiled jquery.js  (2ms)  (pid 26279)
+Compiled jquery_ujs.js  (0ms)  (pid 26279)
+Compiled urls.js  (438ms)  (pid 26279)
+Compiled application.js  (537ms)  (pid 26279)
+Completed 200 OK in 729ms (Views: 728.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-30 22:11:55 -0700
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-30 22:11:55 -0700
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-30 22:11:55 -0700
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2012-07-30 22:11:55 -0700
+Served asset /urls.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-30 22:11:55 -0700
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2012-07-30 22:11:55 -0700
+Served asset /urls.css - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-30 22:17:20 -0700
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-30 22:17:26 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-30 22:17:51 -0700
+Connecting to database specified by database.yml
+
+
+Started GET "/urls/new" for 127.0.0.1 at 2012-07-30 22:17:51 -0700
+Processing by UrlsController#new as HTML
+  Rendered urls/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 56ms (Views: 36.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-30 22:17:51 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2012-07-30 22:17:51 -0700
+Served asset /urls.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-30 22:17:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-30 22:17:51 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2012-07-30 22:17:51 -0700
+Served asset /urls.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-30 22:17:51 -0700
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/urls/new" for 127.0.0.1 at 2012-07-30 22:24:19 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#new as HTML
+  Rendered urls/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 59ms (Views: 40.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-30 22:24:19 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2012-07-30 22:24:19 -0700
+Served asset /urls.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2012-07-30 22:24:19 -0700
+Served asset /urls.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-30 22:24:19 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-30 22:24:19 -0700
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-30 22:24:19 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:24:26 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"twitter.com"}, "commit"=>"Shorten my URL"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: url):
+  app/controllers/urls_controller.rb:7:in `new'
+  app/controllers/urls_controller.rb:7:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.9ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:24:47 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://twitter.com"}, "commit"=>"Shorten my URL"}
+Completed 500 Internal Server Error in 0ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: url):
+  app/controllers/urls_controller.rb:7:in `new'
+  app/controllers/urls_controller.rb:7:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:26:35 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://twitter.com"}, "commit"=>"Shorten my URL"}
+Completed 500 Internal Server Error in 0ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: url):
+  app/controllers/urls_controller.rb:7:in `new'
+  app/controllers/urls_controller.rb:7:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.8ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:28:05 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://google.com"}, "commit"=>"Shorten my URL"}
+Completed 500 Internal Server Error in 15ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: url):
+  app/controllers/urls_controller.rb:7:in `new'
+  app/controllers/urls_controller.rb:7:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.7ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:29:33 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://google.com"}, "commit"=>"Shorten my URL"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: url):
+  app/controllers/urls_controller.rb:7:in `new'
+  app/controllers/urls_controller.rb:7:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-30 22:29:48 -0700
+Connecting to database specified by database.yml
+
+
+Started GET "/urls/new" for 127.0.0.1 at 2012-07-30 22:29:48 -0700
+Processing by UrlsController#new as HTML
+  Rendered urls/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 56ms (Views: 38.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2012-07-30 22:29:49 -0700
+Served asset /urls.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-30 22:29:49 -0700
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-30 22:29:49 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2012-07-30 22:29:49 -0700
+Served asset /urls.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-30 22:29:49 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-30 22:29:50 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:29:55 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://google.com"}, "commit"=>"Shorten my URL"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: url):
+  app/controllers/urls_controller.rb:7:in `new'
+  app/controllers/urls_controller.rb:7:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:34:41 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://google.com"}, "commit"=>"Shorten my URL"}
+Completed 500 Internal Server Error in 15ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: url):
+  app/controllers/urls_controller.rb:7:in `new'
+  app/controllers/urls_controller.rb:7:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:41:47 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://twitter.com"}, "commit"=>"Shorten my URL"}
+Completed 500 Internal Server Error in 15ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: url):
+  app/controllers/urls_controller.rb:8:in `new'
+  app/controllers/urls_controller.rb:8:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:43:38 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://twitter.com"}, "commit"=>"Shorten my URL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (87.4ms)[0m  INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)  [["created_at", Tue, 31 Jul 2012 05:43:39 UTC +00:00], ["updated_at", Tue, 31 Jul 2012 05:43:39 UTC +00:00], ["url", nil]]
+SQLite3::ConstraintException: urls.url may not be NULL: INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 108ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: urls.url may not be NULL: INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)):
+  app/controllers/urls_controller.rb:9:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started GET "/urls/new" for 127.0.0.1 at 2012-07-30 22:49:16 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#new as HTML
+  Rendered urls/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 174ms (Views: 155.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-30 22:49:17 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-30 22:49:17 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2012-07-30 22:49:17 -0700
+Served asset /urls.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2012-07-30 22:49:17 -0700
+Served asset /urls.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-30 22:49:17 -0700
+Served asset /jquery.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-30 22:49:17 -0700
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:49:22 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://google.com"}, "commit"=>"Shorten my URL"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.0ms)[0m  INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)  [["created_at", Tue, 31 Jul 2012 05:49:22 UTC +00:00], ["updated_at", Tue, 31 Jul 2012 05:49:22 UTC +00:00], ["url", nil]]
+SQLite3::ConstraintException: urls.url may not be NULL: INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 9ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: urls.url may not be NULL: INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)):
+  app/controllers/urls_controller.rb:10:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:50:20 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://google.com"}, "commit"=>"Shorten my URL"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)  [["created_at", Tue, 31 Jul 2012 05:50:21 UTC +00:00], ["updated_at", Tue, 31 Jul 2012 05:50:21 UTC +00:00], ["url", nil]]
+SQLite3::ConstraintException: urls.url may not be NULL: INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 23ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: urls.url may not be NULL: INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)):
+  app/controllers/urls_controller.rb:10:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:51:37 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://google.com"}, "commit"=>"Shorten my URL"}
+Completed 500 Internal Server Error in 14ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: url):
+  app/controllers/urls_controller.rb:7:in `new'
+  app/controllers/urls_controller.rb:7:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.6ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:52:30 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://google.com"}, "commit"=>"Shorten my URL"}
+Completed 500 Internal Server Error in 14ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: url):
+  app/controllers/urls_controller.rb:10:in `new'
+  app/controllers/urls_controller.rb:10:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.7ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:53:40 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://google.com"}, "commit"=>"Shorten my URL"}
+Completed 500 Internal Server Error in 15ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: url):
+  app/controllers/urls_controller.rb:10:in `new'
+  app/controllers/urls_controller.rb:10:in `create'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.6ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:54:16 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://google.com"}, "commit"=>"Shorten my URL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)  [["created_at", Tue, 31 Jul 2012 05:54:17 UTC +00:00], ["updated_at", Tue, 31 Jul 2012 05:54:17 UTC +00:00], ["url", "http://google.com"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/urls/new
+Completed 302 Found in 27ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/urls/new" for 127.0.0.1 at 2012-07-30 22:54:17 -0700
+Processing by UrlsController#new as HTML
+  Rendered urls/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 40ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-30 22:54:17 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2012-07-30 22:54:17 -0700
+Served asset /urls.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-30 22:54:17 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-30 22:54:17 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2012-07-30 22:54:17 -0700
+Served asset /urls.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-30 22:54:17 -0700
+Served asset /application.js - 304 Not Modified (6ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (58.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (2.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUrls (20120731045348)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "urls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url" varchar(255) NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120731045348')
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("urls")
+
+
+Started GET "/urls/new" for 127.0.0.1 at 2012-07-30 22:55:54 -0700
+Connecting to database specified by database.yml
+Processing by UrlsController#new as HTML
+  Rendered urls/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 56ms (Views: 38.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-30 22:55:55 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-30 22:55:55 -0700
+Served asset /jquery.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2012-07-30 22:55:55 -0700
+Served asset /urls.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2012-07-30 22:55:55 -0700
+Served asset /urls.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-30 22:55:55 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-30 22:55:55 -0700
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:56:00 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"waffles.boop"}, "commit"=>"Shorten my URL"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.7ms)[0m  INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)  [["created_at", Tue, 31 Jul 2012 05:56:00 UTC +00:00], ["updated_at", Tue, 31 Jul 2012 05:56:00 UTC +00:00], ["url", "waffles.boop"]]
+  [1m[36m (48.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/urls/new
+Completed 302 Found in 59ms (ActiveRecord: 54.4ms)
+
+
+Started GET "/urls/new" for 127.0.0.1 at 2012-07-30 22:56:00 -0700
+Processing by UrlsController#new as HTML
+  Rendered urls/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-30 22:56:00 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-30 22:56:00 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2012-07-30 22:56:00 -0700
+Served asset /urls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-30 22:56:00 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2012-07-30 22:56:00 -0700
+Served asset /urls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-30 22:56:00 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/urls/1" for 127.0.0.1 at 2012-07-30 22:57:30 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUrl Load (0.3ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1  [["id", "1"]]
+Redirected to http://localhost:3000waffles.boop
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-30 22:59:24 -0700
+Connecting to database specified by database.yml
+
+
+Started GET "/urls/new" for 127.0.0.1 at 2012-07-30 22:59:24 -0700
+Processing by UrlsController#new as HTML
+  Rendered urls/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 57ms (Views: 38.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-30 22:59:24 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2012-07-30 22:59:24 -0700
+Served asset /urls.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-30 22:59:24 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-30 22:59:24 -0700
+Served asset /jquery.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2012-07-30 22:59:24 -0700
+Served asset /urls.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-30 22:59:24 -0700
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2012-07-30 22:59:31 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vh1sAuio6s7q4AtYOGUcJw7RW3NZ69TUdIoTb2mAPuE=", "url"=>{"url"=>"http://twitter.com/zazenergy"}, "commit"=>"Shorten my URL"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.1ms)[0m  INSERT INTO "urls" ("created_at", "updated_at", "url") VALUES (?, ?, ?)  [["created_at", Tue, 31 Jul 2012 05:59:31 UTC +00:00], ["updated_at", Tue, 31 Jul 2012 05:59:31 UTC +00:00], ["url", "http://twitter.com/zazenergy"]]
+  [1m[36m (55.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/urls/new
+Completed 302 Found in 65ms (ActiveRecord: 60.3ms)
+
+
+Started GET "/urls/new" for 127.0.0.1 at 2012-07-30 22:59:31 -0700
+Processing by UrlsController#new as HTML
+  Rendered urls/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-30 22:59:31 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2012-07-30 22:59:31 -0700
+Served asset /urls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-30 22:59:31 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-30 22:59:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2012-07-30 22:59:31 -0700
+Served asset /urls.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-30 22:59:31 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/urls/2" for 127.0.0.1 at 2012-07-30 22:59:37 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUrl Load (0.2ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1  [["id", "2"]]
+Redirected to http://twitter.com/zazenergy
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/urls/3" for 127.0.0.1 at 2012-07-30 23:00:03 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUrl Load (0.1ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Url with id=3):
+  app/controllers/urls_controller.rb:18:in `show'
+
+
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/lkhalil/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
